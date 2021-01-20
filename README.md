@@ -19,7 +19,7 @@ An Alice layout PCB based on Yuktsi's files
 ![render img](https://github.com/audrentis/Clarice/blob/f103/Doc/layout.png)
 
 # Disclaimer
-**As stated in the license, I provide these designs as-is and as-available and provide no warranty or guarantees of fitment.**
+**As stated in the license, I provide these designs as-is and as-available and provide no warranty or guarantees of fitment.**  
 this is a work in progress. Use these files at your own risk.
 
 # License 
