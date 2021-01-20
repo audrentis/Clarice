@@ -7,7 +7,7 @@ An Alice layout PCB based on Yuktsi's files
 
 ### PCB Features
 * Bottom mount Mini USB 
-* Uses STMF103 MCU
+* Uses STM32F103 MCU
 * Support for in-switch LEDs 
 * 3 indicator lights in original positions 
 * Rotary Encoder footprint at top side cluster position
