@@ -3,7 +3,7 @@
 ## About
 An Alice layout PCB based on Yuktsi's files
 
-![render img](https://github.com/audrentis/Clarice-F103/blob/main/Doc/Top_View.png)
+![render img](https://github.com/audrentis/Clarice/blob/f103/Doc/Top_View.png)
 
 ### PCB Features
 * Bottom mount Mini USB 
@@ -13,10 +13,10 @@ An Alice layout PCB based on Yuktsi's files
 * Rotary Encoder footprint at top side cluster position
 * Markings on F.Cu and F.Silks for different switch positioning 
 
-![render img](https://github.com/audrentis/Clarice-F103/blob/main/Doc/Bottom_View.png)
+![render img](https://github.com/audrentis/Clarice/blob/f103/Doc/Bottom_View.png)
 
 ### Supported Layouts
-![render img](https://github.com/audrentis/Clarice-F103/blob/main/Doc/layout.png)
+![render img](https://github.com/audrentis/Clarice/blob/f103/Doc/layout.png)
 
 # Disclaimer
 **As stated in the license, I provide these designs as-is and as-available and provide no warranty or guarantees of fitment.**
