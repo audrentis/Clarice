@@ -2,4 +2,5 @@
   (lib (name Mx_Alps)(type KiCad)(uri C:/Users/Audrentis/Documents/github/Clarice/MX_Alps_Hybrid.pretty/MX_Only.pretty)(options "")(descr ""))
   (lib (name MINI)(type KiCad)(uri C:/Users/Audrentis/Documents/github/Clarice/random-keyboard-parts.pretty)(options "")(descr ""))
   (lib (name "Type C")(type KiCad)(uri C:/Users/Audrentis/Documents/github/Clarice/Type-C.pretty)(options "")(descr ""))
+  (lib (name duh)(type KiCad)(uri C:/Users/Audrentis/Downloads/kailh_big_series.pretty)(options "")(descr ""))
 )
