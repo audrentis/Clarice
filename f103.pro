@@ -1,4 +1,4 @@
-update=1/13/2021 10:01:03 AM
+update=2/3/2021 12:40:10 PM
 version=1
 last_client=kicad
 [general]
@@ -31,7 +31,8 @@ MinHoleToHole=0.25
 TrackWidth1=0.29972
 TrackWidth2=0.254
 TrackWidth3=0.29972
-TrackWidth4=0.508
+TrackWidth4=0.4064
+TrackWidth5=0.508
 ViaDiameter1=0.8
 ViaDrill1=0.4
 dPairWidth1=0.29972
@@ -57,7 +58,7 @@ OthersTextSizeH=1
 OthersTextSizeThickness=0.15
 OthersTextItalic=0
 OthersTextUpright=1
-SolderMaskClearance=0.05
+SolderMaskClearance=0
 SolderMaskMinWidth=0
 SolderPasteClearance=0
 SolderPasteRatio=-0
