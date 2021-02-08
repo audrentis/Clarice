@@ -6,12 +6,12 @@ An Alice layout PCB based on Yuktsi's files
 ![render img](https://github.com/audrentis/Clarice/blob/f103/Doc/Top_View.png)
 
 ### PCB Features
-* Bottom mount Mini USB 
+* Bottom mount USB Type-C 
 * Uses STM32F103 MCU
 * Support for in-switch LEDs 
 * 3 indicator lights in original positions 
 * Rotary Encoder footprint at top side cluster position
-* Markings on F.Cu and F.Silks for different switch positioning 
+* Markings on F.Cu and F.Silks for different switch and stabilizer positions
 
 ![render img](https://github.com/audrentis/Clarice/blob/f103/Doc/Bottom_View.png)
 
@@ -20,7 +20,7 @@ An Alice layout PCB based on Yuktsi's files
 
 # Disclaimer
 **As stated in the license, I provide these designs as-is and as-available and provide no warranty or guarantees of functionality**  
-this is a work in progress. Use these files at your own risk.
+this is untested and a work in progress. Use these files at your own risk.
 
 # License 
 <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/"><img alt="Creative Commons License" style="border-width:0" 
