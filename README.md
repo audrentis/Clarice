@@ -10,8 +10,12 @@ An Alice layout PCB based on Yuktsi's files
 * Uses STM32F103 MCU
 * Support for in-switch LEDs 
 * 3 indicator lights in original positions 
-* Rotary Encoder footprint at top side cluster position
-* Markings on F.Cu and F.Silks for different switch and stabilizer positions
+* Rotary Encoder footprint at top of macro cluster
+* Markings on F.Cu and B.Silks for different switch and stabilizer positions
+<!-->
+* Uses [xyzz's STM32F103 Bootloader](https://github.com/xyzz/stm32f103-keyboard-bootloader)
+<!-->
+[pin mapping](https://github.com/audrentis/Clarice/blob/main/Doc/firmware_spec.txt)
 
 ![render img](https://github.com/audrentis/Clarice/blob/main/Doc/Bottom_View.png)
 

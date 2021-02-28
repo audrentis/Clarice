@@ -1,0 +1,30 @@
+Designation | Pin
+
+C0  | B2
+C1  | B1
+C2  | B0
+C3  | A7
+C4  | A6
+C5  | A5
+C6  | A4
+C7  | B11
+C8  | B8
+C9  | B7
+C10 | B6
+C11 | B5
+C12 | B4
+C13 | B3
+C14 | C14
+C15 | A15
+R0  | A10
+R1  | B10
+R2  | B9
+R3  | A3
+R4  | A2
+I1  | B15
+I2  | B14
+I3  | B13
+BL  | B12
+EA  | A8
+EB  | A9
+
