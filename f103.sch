@@ -3455,49 +3455,6 @@ Wire Wire Line
 Wire Wire Line
 	1950 3900 2200 3900
 Connection ~ 2200 3900
-$Comp
-L Device:Rotary_Encoder_Switch SW1
-U 1 1 60062B88
-P 950 1800
-F 0 "SW1" V 1400 2050 50  0000 R CNN
-F 1 "Rotary_Encoder_Switch" V 1300 2150 20  0000 R CNN
-F 2 "Rotary_Encoder:RotaryEncoder_Alps_EC11E-Switch_Vertical_H20mm" H 800 1960 50  0001 C CNN
-F 3 "~" H 950 2060 50  0001 C CNN
-	1    950  1800
-	0    -1   -1   0   
-$EndComp
-Wire Wire Line
-	1050 1500 1500 1500
-Connection ~ 1500 1500
-Wire Wire Line
-	1500 1500 1500 1350
-Wire Wire Line
-	1300 1950 1200 1950
-Wire Wire Line
-	1200 1950 1200 1550
-Wire Wire Line
-	1200 1550 850  1550
-Wire Wire Line
-	850  1550 850  1500
-$Comp
-L power:GND #PWR0133
-U 1 1 600CA7BC
-P 950 2350
-F 0 "#PWR0133" H 950 2100 50  0001 C CNN
-F 1 "GND" H 955 2177 50  0000 C CNN
-F 2 "" H 950 2350 50  0001 C CNN
-F 3 "" H 950 2350 50  0001 C CNN
-	1    950  2350
-	1    0    0    -1  
-$EndComp
-Text GLabel 850  2100 3    50   Input ~ 0
-ENCA
-Text GLabel 1050 2100 3    50   Input ~ 0
-ENCB
-Text GLabel 15300 4700 2    50   Input ~ 0
-ENCB
-Text GLabel 15300 4600 2    50   Input ~ 0
-ENCA
 Wire Wire Line
 	15300 5000 15650 5000
 Connection ~ 15650 5000
@@ -3509,8 +3466,6 @@ Wire Wire Line
 	1450 1450 1450 1800
 Wire Wire Line
 	2400 3600 2400 4500
-Wire Wire Line
-	1500 1500 1500 1750
 Wire Wire Line
 	3050 1350 3050 1750
 Wire Wire Line
@@ -3578,7 +3533,6 @@ Wire Wire Line
 Connection ~ 1500 1750
 Wire Wire Line
 	1500 1750 1500 2650
-Connection ~ 1300 1950
 Connection ~ 1450 1800
 Wire Wire Line
 	1450 1800 1450 2700
@@ -3988,8 +3942,6 @@ Wire Wire Line
 Connection ~ 1400 8350
 Connection ~ 950  8050
 Connection ~ 950  8350
-Wire Wire Line
-	950  2350 950  2100
 $Comp
 L power:+3.3V #PWR0132
 U 1 1 603D6680
@@ -4081,4 +4033,56 @@ Wire Wire Line
 	14450 7500 14450 7600
 Wire Wire Line
 	14000 8000 14450 8000
+Wire Wire Line
+	1500 1350 1500 1600
+$Comp
+L Device:Rotary_Encoder_Switch SW1
+U 1 1 6048E041
+P -450 1800
+F 0 "SW1" V -404 1570 50  0000 R CNN
+F 1 "Rotary_Encoder_Switch" V -495 1570 50  0000 R CNN
+F 2 "edits:RotaryEncoder_Alps_EC11E-Switch_Vertical_H20mm" H -600 1960 50  0001 C CNN
+F 3 "~" H -450 2060 50  0001 C CNN
+	1    -450 1800
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:GND #PWR0129
+U 1 1 604914B2
+P -450 2100
+F 0 "#PWR0129" H -450 1850 50  0001 C CNN
+F 1 "GND" H -445 1927 50  0000 C CNN
+F 2 "" H -450 2100 50  0001 C CNN
+F 3 "" H -450 2100 50  0001 C CNN
+	1    -450 2100
+	1    0    0    -1  
+$EndComp
+Text GLabel -550 2100 0    50   Input ~ 0
+EA
+Text GLabel -350 2100 2    50   Input ~ 0
+EB
+Wire Wire Line
+	1300 1950 -100 1950
+Wire Wire Line
+	-100 1950 -100 2350
+Wire Wire Line
+	-100 2350 -850 2350
+Wire Wire Line
+	-850 2350 -850 1500
+Wire Wire Line
+	-850 1500 -550 1500
+Connection ~ 1300 1950
+Wire Wire Line
+	1500 1600 -150 1600
+Wire Wire Line
+	-150 1600 -150 1500
+Wire Wire Line
+	-150 1500 -350 1500
+Connection ~ 1500 1600
+Wire Wire Line
+	1500 1600 1500 1750
+Text GLabel 15300 4700 2    50   Input ~ 0
+EB
+Text GLabel 15300 4600 2    50   Input ~ 0
+EA
 $EndSCHEMATC

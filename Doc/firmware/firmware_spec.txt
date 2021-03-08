@@ -1,0 +1,36 @@
+#define MATRIX_COL_PINS { B2, B1, B0, A7, A6, A5, A4, B11, B8, B7, B6, B5, B4, B3, C14, A15 }
+#define MATRIX_ROW_PINS { A10, B10, B9, A3, A2 }
+
+#define LED_CAPS_LOCK_PIN B15
+#define LED_NUM_LOCK_PIN B14
+#define LED_SCROLL_LOCK_PIN B13
+
+#define BACKLIGHT_PIN B12
+#define BACKLIGHT_LEVELS 3
+#define BACKLIGHT_ON_STATE 1
+#define BACKLIGHT_PWM_DRIVER 
+#define BACKLIGHT_PWM_CHANNEL 
+
+#define ENCODERS_PAD_A { A8 }
+#define ENCODERS_PAD_B { A9 }
+#define ENCODER_RESOLUTION 1
+
+following const in keymap
+
+void encoder_update_user(uint8_t index, bool clockwise) {
+    if (index == 0) { /* First encoder */
+        if (clockwise) {
+            tap_code(KC_DOWN);
+        } else {
+            tap_code(KC_UP);
+        }
+    } else if (index == 1) { /* Second encoder */
+        if (clockwise) {
+            tap_code(KC_DOWN);
+        } else {
+            tap_code(KC_UP);
+        }
+    }
+}
+
+
