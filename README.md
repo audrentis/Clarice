@@ -12,16 +12,18 @@ An Alice layout PCB based on Yuktsi's files
 * 3 indicator lights in original positions 
 * Rotary Encoder footprint at top of macro cluster
 * Markings on F.Cu and B.Silks for different switch and stabilizer positions
-<!-->
-* Uses [xyzz's STM32F103 Bootloader](https://github.com/xyzz/stm32f103-keyboard-bootloader)
-<!-->
-[pin mapping](https://github.com/audrentis/Clarice/blob/main/Doc/firmware_spec.txt)
+
+Uses [xyzz's STM32F103 Bootloader](https://github.com/xyzz/stm32f103-keyboard-bootloader)
+
+
 
 ![render img](https://github.com/audrentis/Clarice/blob/main/Doc/Bottom_View.png)
 
 ### Supported Layouts
 ![render img](https://github.com/audrentis/Clarice/blob/main/Doc/layout.png)
 
+In the production folder is the files for pcb production from JLCPCB and the raw files for an acrylic case (3mm acrylic layers, 1.5mm switch plate [both half and full plates included])
+Doc folder contains firmware 
 # Disclaimer
 **As stated in the license, I provide these designs as-is and as-available and provide no warranty or guarantees of functionality**  
 this is untested and a work in progress. Use these files at your own risk.

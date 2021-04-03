@@ -2615,7 +2615,7 @@ L power:+3.3V #PWR0124
 U 1 1 6006161E
 P 15650 3500
 F 0 "#PWR0124" H 15650 3350 50  0001 C CNN
-F 1 "+3.3V" H 15665 3673 50  0000 C CNN
+F 1 "+3.3V" H 15950 3550 50  0000 C CNN
 F 2 "" H 15650 3500 50  0001 C CNN
 F 3 "" H 15650 3500 50  0001 C CNN
 	1    15650 3500
@@ -3311,7 +3311,7 @@ Wire Wire Line
 	13100 5700 13100 5800
 Text GLabel 12300 6000 0    50   Input ~ 0
 LED_PWM
-Text GLabel 14150 3700 0    50   Input ~ 0
+Text GLabel 15450 3400 2    50   Input ~ 0
 LED_PWM
 $Comp
 L Mechanical:MountingHole G1
@@ -4025,7 +4025,7 @@ Text GLabel 1500 1800 0    50   Input ~ 0
 EA
 Text GLabel 1700 1800 2    50   Input ~ 0
 EB
-Text GLabel 15450 3400 2    50   Input ~ 0
+Text GLabel 14150 3700 0    50   Input ~ 0
 EB
 Text GLabel 15450 3300 2    50   Input ~ 0
 EA
@@ -4061,4 +4061,26 @@ Wire Wire Line
 Wire Wire Line
 	1500 1600 2200 1600
 Connection ~ 2200 1600
+$Comp
+L Mechanical:MountingHole G2
+U 1 1 6076F0E5
+P 8850 7500
+F 0 "G2" H 8950 7546 50  0000 L CNN
+F 1 "zero" H 8950 7455 50  0000 L CNN
+F 2 "Graphics:02" H 8850 7500 50  0001 C CNN
+F 3 "~" H 8850 7500 50  0001 C CNN
+	1    8850 7500
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole G3
+U 1 1 6076FA54
+P 9250 7500
+F 0 "G3" H 9350 7546 50  0000 L CNN
+F 1 "zero" H 9350 7455 50  0000 L CNN
+F 2 "Graphics:02" H 9250 7500 50  0001 C CNN
+F 3 "~" H 9250 7500 50  0001 C CNN
+	1    9250 7500
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
